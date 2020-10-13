@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\dev\workspace\android\TFLiteSample\sdk\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.

@@ -1,0 +1,3 @@
+C:/dev/workspace/android/TFLiteSample/sdk/.cxx/cmake/release/x86_64/CMakeFiles/opencv_jni_shared.dir
+C:/dev/workspace/android/TFLiteSample/sdk/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+C:/dev/workspace/android/TFLiteSample/sdk/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

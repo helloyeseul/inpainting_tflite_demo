@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/dev/workspace/android/TFLiteSample/sdk/.cxx/cmake/release/x86_64",
+  "command": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/sdc01/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sdc01/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\opencv_jni_shared.dir\\dummy.cpp.o -c C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\libcxx_helper\\dummy.cpp",
+  "file": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\libcxx_helper\\dummy.cpp"
+}
+]

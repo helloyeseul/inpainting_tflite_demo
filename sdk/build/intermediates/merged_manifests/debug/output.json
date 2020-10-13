@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "org.opencv",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 405000,
+        "versionName": "4.5.0",
+        "outputFile": "sdk-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/debug/AndroidManifest.xml",
+      "properties": {
+        "packageId": "org.opencv",
+        "split": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "C:/dev/workspace/android/TFLiteSample/sdk/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=C:/Users/sdc01/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sdc01/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\libcxx_helper\\CMakeLists.txt",
+    "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\release\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "opencv_jni_shared-Release-x86": {
+      "buildCommand": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\release\\x86\" opencv_jni_shared",
+      "buildType": "release",
+      "toolchain": "2368919312",
+      "abi": "x86",
+      "artifactName": "opencv_jni_shared",
+      "files": [
+        {
+          "src": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\libcxx_helper\\dummy.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\release\\x86\\libopencv_jni_shared.a",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2368919312": {
+      "cppCompilerExecutable": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
