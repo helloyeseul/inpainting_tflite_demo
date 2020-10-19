@@ -31,13 +31,13 @@ class MainActivity : AppCompatActivity(), ImageAdapter.ItemClickListener {
 
     companion object {
 
-        private const val MODEL_FILE_PATH = "inpaint_model_2.tflite"
+        private const val MODEL_FILE_PATH = "inpaint_model.tflite"
 
         private const val IMAGE_HEIGHT = 512
 
         private const val IMAGE_WIDTH = 680
 
-        private val images = listOf(
+        private val images = arrayOf(
             R.drawable.case1_input,
             R.drawable.case2_input,
             R.drawable.case3_input,
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), ImageAdapter.ItemClickListener {
             R.drawable.case6_input
         )
 
-        private val inputImages = listOf(
+        private val inputImages = arrayOf(
             R.drawable.input_case1,
             R.drawable.input_case2,
             R.drawable.input_case3,
@@ -118,10 +118,11 @@ class MainActivity : AppCompatActivity(), ImageAdapter.ItemClickListener {
             .doOnError { progressBar.visibility = View.GONE }
             .subscribe({ path ->
                 val end = System.currentTimeMillis()
-                Logger.d("run inpaint model success: ${end - start}ms")
-                tvTime.text = "${(end - start) / 1000}.${(end - start) % 1000}초 걸림"
+                val duration = end - start
+                Logger.d("running inpaint model success: $duration ms")
+                tvTime.text = "${duration / 1000}.${duration % 1000} seconds"
                 GlideHelper.loadImage(this@MainActivity, path, ivResult)
-            }) { Logger.d("run inpaint model fail. $it") }
+            }) { Logger.d("running inpaint model fail: $it") }
     }
 
     private fun initInputTensor(resourceId: Int) {
