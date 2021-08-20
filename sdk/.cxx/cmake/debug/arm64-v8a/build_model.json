@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
-    "cmakeServerLogFile": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cxx\\debug\\arm64-v8a",
+    "cmakeArtifactsBaseFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
+    "cmakeServerLogFile": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cxx\\debug\\arm64-v8a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
+      "buildRoot": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
       "cmakeToolchain": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
+          "value": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+          "value": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -78,14 +78,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
+  "cxxBuildFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
   "info": {
     "abi": "ARM64_V8A",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
+  "originalCxxBuildFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\arm64-v8a",
   "variant": {
     "buildSystemArgumentList": [
       "-DANDROID_STL\u003dc++_shared"
@@ -105,12 +105,12 @@
         "ninjaExe": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
       "cmakeToolchainFile": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx",
+      "cxxFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx",
       "gradleModulePathName": ":sdk",
-      "intermediatesFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\build\\intermediates",
-      "makeFile": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\libcxx_helper\\CMakeLists.txt",
-      "moduleBuildFile": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\build.gradle",
-      "moduleRootFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk",
+      "intermediatesFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\build\\intermediates",
+      "makeFile": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\libcxx_helper\\CMakeLists.txt",
+      "moduleBuildFile": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\build.gradle",
+      "moduleRootFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -174,13 +174,13 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.0.6113669",
       "project": {
-        "compilerSettingsCacheFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\.cxx",
-        "cxxFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\.cxx",
+        "compilerSettingsCacheFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\.cxx",
+        "cxxFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\.cxx",
         "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "C:\\dev\\workspace\\android\\TFLiteSample",
+        "rootBuildGradleFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo",
         "sdkFolder": "C:\\Users\\sdc01\\AppData\\Local\\Android\\Sdk",
         "isPrefabEnabled": false
       },
@@ -197,13 +197,13 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\build\\intermediates\\cmake\\debug\\obj",
+    "objFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
       "ARM64_V8A"
     ],
-    "prefabDirectory": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\prefab",
+    "prefabDirectory": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "C:\\dev\\workspace\\android\\TFLiteSample\\sdk\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
+  "prefabFolder": "C:\\dev\\workspace\\android\\inpainting_tflite_demo\\sdk\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
 }

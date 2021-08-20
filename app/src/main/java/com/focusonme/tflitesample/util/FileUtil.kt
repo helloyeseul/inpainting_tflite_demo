@@ -1,6 +1,6 @@
 package com.focusonme.tflitesample.util
 
-import android.os.Environment
+import android.content.Context
 import android.text.format.DateFormat
 import com.focusonme.tflitesample.App
 import java.io.File
@@ -11,15 +11,14 @@ private const val DATE_FORMAT = "yyyy-MM-dd HH:mm:ss"
 
 fun getDateTimeString(date: Date) = DateFormat.format(DATE_FORMAT, date).toString()
 
-fun createTempFile(): String {
-    val file = File.createTempFile("PNG_", ".png", App.context.cacheDir)
+fun Context.createNewFile(): String {
 
-    return file.toString()
-}
+    val mediaDir = externalMediaDirs.firstOrNull()?.let {
+        File(it, "TFLite").apply { mkdirs() }
+    }
 
-fun createNewFile(): String {
-    val rootDirectory = File("${Environment.getExternalStorageDirectory()}/TFLite")
-    if (!rootDirectory.exists()) rootDirectory.mkdir()
-
-    return File(rootDirectory, getDateTimeString(Date()) + ".png").toString()
+    return File(
+        if (null != mediaDir && mediaDir.exists()) mediaDir else filesDir,
+        "${getDateTimeString(Date())}.jpg"
+    ).toString()
 }

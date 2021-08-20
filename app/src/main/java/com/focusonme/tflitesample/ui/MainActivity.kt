@@ -11,6 +11,7 @@ import com.focusonme.tflitesample.R
 import com.focusonme.tflitesample.extension.glide.GlideHelper
 import com.focusonme.tflitesample.extension.opencv.saveImageToFile
 import com.focusonme.tflitesample.extension.rx.plusAssign
+import com.focusonme.tflitesample.util.createNewFile
 import com.orhanobut.logger.Logger
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity(), ImageAdapter.ItemClickListener {
 
     companion object {
 
-        private const val MODEL_FILE_PATH = "inpaint_model.tflite"
+        private const val MODEL_FILE_PATH = "model.tflite"
 
         private const val IMAGE_HEIGHT = 512
 
@@ -142,7 +143,7 @@ class MainActivity : AppCompatActivity(), ImageAdapter.ItemClickListener {
 
     private fun observeInpaintModel() = Single
         .fromCallable { inpaintModel!!.run(inputTensor!!.buffer, outputTensor!!.buffer) }
-        .map { saveImageToFile(outputTensor!!.buffer) }
+        .map { createNewFile().also { outputTensor!!.buffer.saveImageToFile(it) } }
         .subscribeOn(Schedulers.newThread())
 
     override fun onItemClick(position: Int) = showInputImage(position)
